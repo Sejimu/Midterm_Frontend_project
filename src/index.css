@@ -72,3 +72,17 @@ button:focus-visible {
   border: 5px white solid !important;
   border-color: #ffffff !important;
 }
+.logo {
+  animation-name: ani;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ani {
+  from {
+    top: 40px;
+  }
+  to {
+    top: 0px;
+  }
+}
