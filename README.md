@@ -2,7 +2,7 @@
 
 This project has single TextArea component. Try to type to see the changes and to see to encode your message
 
-image.png
+![Image alt](https://github.com/Sejimu/Midterm_Frontend_project/blob/master/изображение_2023-11-03_220632152.png)
 
 Currently, the libraries that was used in project:
 
