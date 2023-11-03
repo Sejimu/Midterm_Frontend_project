@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import "./App.css";
 import TextFieldCustom from "./components/TextFieldCustom";
 import { useMainContext } from "./context/MainContext";
+import logo from "./assets/1519540999.2.jpg";
 
 function App() {
   const { inputValue } = useMainContext();
@@ -25,6 +26,11 @@ function App() {
 
   return (
     <Box>
+      <img
+        src={logo}
+        alt="text"
+        style={{ width: "400px", height: "maxheight" }}
+      />
       <Typography variant="h3" color="InfoText" sx={{ mb: "50px" }}>
         Type here
       </Typography>
