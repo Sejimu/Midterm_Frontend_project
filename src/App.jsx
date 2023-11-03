@@ -26,11 +26,7 @@ function App() {
 
   return (
     <Box>
-      <img
-        src={logo}
-        alt="text"
-        style={{ width: "400px", height: "maxheight" }}
-      />
+      <img src={logo} alt="text" style={{ width: "400px", height: "400px" }} />
       <Typography variant="h3" color="InfoText" sx={{ mb: "50px" }}>
         Type here
       </Typography>
