@@ -8,7 +8,6 @@ function App() {
   const { inputValue } = useMainContext();
 
   let randomColor = Math.floor(Math.random() * 16777215).toString(16);
-  console.log(randomColor);
 
   const crypt = (salt, text) => {
     const textToChars = (text) => text.split("").map((c) => c.charCodeAt(0));
